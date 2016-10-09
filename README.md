@@ -14,7 +14,7 @@ By [ShellBear](https://github.com/ShellBear).
 Add this on your Terminal :
 
 ```git
-git https://github.com/ShellBear/USBStealer.git
+git clone https://github.com/ShellBear/USBStealer.git
 ```
 
 Run the following command to install at startup:
