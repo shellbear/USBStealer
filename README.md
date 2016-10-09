@@ -50,9 +50,7 @@ In order to automatize the transfers without need any action, just run the Start
 
 ## Information
 
-Here's some Screenshots
-
-![Screenshot 1](http://img4.hostingpics.net/pics/746427Capturedcran20161009154522.png)
+Here's Screenshot
 
 ![Screenshot 2](http://img4.hostingpics.net/pics/257962Capturedcran20161009154639.png)
 
