@@ -30,6 +30,10 @@ sh USBStealer.sh
 ```
 
 
+If you download directly from your browser make sure to place the script's folder into your root directory 
+/Users/YOURNAME/
+
+
 ## Usage
 
 Usage explanation goes here
