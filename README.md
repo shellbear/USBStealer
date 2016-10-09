@@ -50,7 +50,7 @@ In order to automatize the transfers without need any action, just run the Start
 
 ## Information
 
-Screenshots of your application below:
+Here's some Screenshots
 
 ![Screenshot 1](http://img4.hostingpics.net/pics/746427Capturedcran20161009154522.png)
 
