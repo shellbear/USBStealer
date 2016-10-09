@@ -36,7 +36,7 @@ If you download directly from your browser make sure to place the script's folde
 
 ## Usage
 
-Usage explanation goes here
+There is actually only verbose mode
 
 ```/bin/sh
 -v : Verbose Mode
