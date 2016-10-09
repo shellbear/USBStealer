@@ -7,26 +7,26 @@ By [ShellBear](https://github.com/ShellBear).
 
 
 ## Description
-**Application Name Here** description can be listed here.
+**USBStealer** A simple script to automatically copy all files from USB key when plugged on OSX.
 
 ## Installation
 
-Add it to your Gemfile:
+Add this on your Terminal :
 
-```ruby
-gem 'my_example_gem'
+```git
+git https://github.com/ShellBear/USBStealer.git
 ```
 
-Run the following command to install it:
+Run the following command to install at startup:
 
-```console
-bundle install
+```/bin/sh
+sh Startup_Install.sh
 ```
 
-Run the generator:
+Run the script directly:
 
-```console
-rails generate my_example_gem:install
+```/bin/sh
+sh USBStealer.sh
 ```
 
 
@@ -34,20 +34,14 @@ rails generate my_example_gem:install
 
 Usage explanation goes here
 
-```erb
-<%= your_code_goes @here do |f| %>
-  <%= f.input :example %>
-  <%= f.input :example %>
-  <%= f.button :example %>
-<% end %>
+```/bin/sh
+-v : Verbose Mode
 ```
 
 
 ## Configuration
 
-This block of text should explain how to configure your application:
-
-`rails generate my_example_gem:install`
+In order to automatize the transfers without need any action, just run the Startup Install.
 
 
 ## Information
@@ -64,13 +58,11 @@ Screenshots of your application below:
 If you discover any bugs, feel free to create an issue on GitHub fork and
 send us a pull request.
 
-[Issues List](Github Issues List URL goes here).
 
-## Authors
+## Author
 
-* Your Name (Your Github URL goes here)
-* Additional Author's name (Their Github URL goes here)
-
+* ShellBear (https://github.com/ShellBear)
+Blogspot (http://shellbearblog.blogspot.com)
 
 ## Contributing
 
@@ -83,4 +75,4 @@ send us a pull request.
 
 ## License
 
-Your Licensing Information goes here. Example: MIT/X11.
+Use it as you want !
