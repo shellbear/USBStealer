@@ -1,11 +1,11 @@
-# Application Title Goes Here
+# USBStealer
 <!-- If you'd like to use a logo instead uncomment this code and remove the text above this line
 
-  ![Logo](URL to logo img file goes here)
+  ![Logo](https://unicrack.files.wordpress.com/2014/10/usb-foto-jpg.png?w=300)
 
 -->
 
-By [Author name](author URL goes here).
+By [ShellBear](https://github.com/ShellBear).
 
 [![Code Climate](Code Climate Badge IMG URL goes here)](Code Climate URL goes here)
 
