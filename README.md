@@ -7,7 +7,7 @@
 
 By [ShellBear](https://github.com/ShellBear).
 
-[![Code Climate](Code Climate Badge IMG URL goes here)](Code Climate URL goes here)
+[![Code Climate](USB)](https://unicrack.files.wordpress.com/2014/10/usb-foto-jpg.png?w=300)
 
 ## Description
 **Application Name Here** description can be listed here.
