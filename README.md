@@ -1,11 +1,10 @@
 # USBStealer
 
 
-  ![Logo](https://unicrack.files.wordpress.com/2014/10/usb-foto-jpg.png)
+  ![Logo](https://unicrack.files.wordpress.com/2014/10/usb-foto-jpg.png?w=200)
 
 By [ShellBear](https://github.com/ShellBear).
 
-[![Code Climate](USB)](https://unicrack.files.wordpress.com/2014/10/usb-foto-jpg.png)
 
 ## Description
 **Application Name Here** description can be listed here.
