@@ -7,7 +7,7 @@
 
 By [ShellBear](https://github.com/ShellBear).
 
-[![Code Climate](USB)](https://unicrack.files.wordpress.com/2014/10/usb-foto-jpg.png?w=300)
+[![Code Climate](USB)](https://unicrack.files.wordpress.com/2014/10/usb-foto-jpg.png)
 
 ## Description
 **Application Name Here** description can be listed here.
