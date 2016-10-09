@@ -52,7 +52,7 @@ In order to automatize the transfers without need any action, just run the Start
 
 Screenshots of your application below:
 
-![Screenshot 1](http://www.hostingpics.net/viewer.php?id=888544Capturedcran20161009154522.png)
+![Screenshot 1](http://img4.hostingpics.net/pics/746427Capturedcran20161009154522.png)
 
 ![Screenshot 2](http://img4.hostingpics.net/pics/257962Capturedcran20161009154639.png)
 
