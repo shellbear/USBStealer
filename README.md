@@ -1,9 +1,7 @@
 # USBStealer
-<!-- If you'd like to use a logo instead uncomment this code and remove the text above this line
 
-  ![Logo](https://unicrack.files.wordpress.com/2014/10/usb-foto-jpg.png?w=300)
 
--->
+  ![Logo](https://unicrack.files.wordpress.com/2014/10/usb-foto-jpg.png)
 
 By [ShellBear](https://github.com/ShellBear).
 
